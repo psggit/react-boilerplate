@@ -28,6 +28,7 @@ app.use('/dist', express.static(path.resolve(__dirname, 'dist')))
 
 //SSR function import
 const ssr = require('./views/server/');
+console.log("ssr", ssr)
 
 //console.log("ssr", ssr)
 

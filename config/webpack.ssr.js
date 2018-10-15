@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, '..' ,'views/server'),
         filename: "[name].js",  
-        libraryTarget: "commonjs2"
+        libraryTarget: "commonjs" //used to load the views/server/index.js using require in express(index.js)
     },
     module: {
         rules: [
